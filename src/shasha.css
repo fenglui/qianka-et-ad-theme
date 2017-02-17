@@ -1,0 +1,301 @@
+:root {
+
+    /* Colors
+  -------------------------- */
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background: #F1F4F5;
+}
+.link-go{
+  font-size: 12px;
+  color: #2c97de;
+  text-decoration: underline;
+  font-family: PingFangSC-Semibold;
+}
+.z-title{
+  font-family: PingFangSC-Light;
+  font-size: 18px;
+  color: #5B6678;
+  margin: 15px 0 35px;
+}
+.el-menu{
+  background-color: #fff;
+}
+.el-menu--dark{
+  background: #253238;
+}
+.el-menu--dark .el-menu-item{
+  color: rgba(255, 255, 255,0.5);
+}
+.el-menu--horizontal .el-submenu .el-submenu__title{
+  color: #c0ccda;
+}
+.el-submenu .el-menu-item:hover {
+    background-color: #fff;
+}
+.el-card{
+  background: #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(153,153,153,0.12);
+  border-radius: 2px;
+  border: none;
+}
+.el-card__header{
+  border-bottom: 1px solid #f5f5f5;
+  padding: 12px 20px;
+}
+.el-card__body{
+  padding: 10px 20px;
+}
+.el-menu-item.is-active, .el-menu--dark .el-menu-item:hover {
+  color: #fff;
+  border-right: 3px solid #2C97DE;
+  background: rgba(0, 0, 0, 0.14);
+}
+.el-menu--horizontal .el-submenu .el-menu-item{
+  text-align: right;
+  color: #99a9bf;
+}
+.el-menu--horizontal > .el-submenu:hover .el-submenu__title{
+  border-bottom: none;
+  background-color: #fff;
+}
+.el-menu--horizontal .el-submenu__title:hover{
+  background-color: #fff;
+}
+.el-menu--horizontal .el-submenu > .el-menu{
+  padding: 7px 0;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+  border-radius: 2px;
+}
+.el-button{
+  border: none;
+  font-size: 12px;
+  color: #5b6678;
+}
+.el-button--primary{
+  background: #F9FAFC;
+}
+.el-button--primary:active, .el-button--primary:hover, .el-button--primary:focus{
+  background: #F9FAFC;
+  color: #5b6678;
+}
+
+.el-table{
+  background: #fff;
+  border: none;
+  margin: 10px 2%;
+  width: 96%;
+  padding: 15px 0;
+}
+.el-table::after, .el-table::before, .el-table__fixed::before, .el-table__fixed-right::before{
+  width: 0;
+  height: 0;
+}
+.el-table__fixed{
+  box-shadow: none;
+  top:15px;
+}
+.el-table th, .el-table__header-wrapper thead div, .el-table__fixed-header-wrapper thead div{
+  background-color: #fff;
+  border: none;
+}
+
+.el-table--border th, .el-table th.is-leaf{
+  border: none;
+}
+.table-container{
+  background: #fff;
+  width: 100%;
+}
+.el-table th > .cell, .el-table .cell{
+  font-family: PingFangSC-Semibold;
+  font-size: 12px;
+  color: #5B6678;
+}
+
+.el-table--striped .el-table__body tr:nth-child(2n) td{
+  background-color: #fff;
+}
+.el-table--striped .el-table__body tr:nth-child(2n-1) td{
+  background-color: #f2f6fa;
+}
+.el-table__fixed-right{
+  padding: 15px 0;
+  top:15px;
+  border: none;
+  box-shadow: none;
+}
+.el-table td {
+    border-top: 1px solid rgb(223, 230, 236);
+    border-bottom: none;
+}
+.el-table__empty-block{
+  border-top: 1px solid rgb(223, 230, 236);
+}
+
+.el-pagination{
+  color: #c0ccda;
+  font-size: 12px;
+}
+.el-pagination .btn-prev{
+  background-color: #f2f6fa;
+  border: none;
+  margin-right: 10px;
+}
+.el-pagination .btn-next{
+  background-color: #f2f6fa;
+  border: none;
+}
+.el-pagination button.disabled{
+  background-color: #f2f6fa;
+}
+.el-pager li{
+  background-color: #f2f6fa;
+  border-radius: 2px;
+  margin-right: 10px;
+  border: none;
+}
+.el-pager li.active{
+  background-color: #2c97de;
+  border: none;
+  border-radius: 2px;
+}
+.el-pager li:last-child{
+  border: none;
+}
+.el-pager li.btn-quicknext{
+  background-color: #fff;
+}
+.el-tabs__header{
+  border: none;
+  border-bottom:1px solid #e5e4e3;
+  margin: 0;
+
+}
+.el-tabs__item{
+  position: relative;
+}
+.el-tabs__item, .el-tabs--card>.el-tabs__header>.el-tabs__item{
+  background: #f2f6fa;
+  border: 1px solid #e5e4e3;
+  color: #99a9bf;
+}
+.el-tabs--card>.el-tabs__header>.el-tabs__item.is-active{
+  background-color: #fff;
+  color: #5b6678;
+  z-index: 2;
+
+}
+.el-tabs__item.is-active::after{
+  background-color: #fff;
+  z-index: 3;
+  bottom: -1px;
+}
+.el-tabs__item::after{
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;
+  bottom: 0;
+  width: 1em;
+  background: #f2f6fa;
+  transform: skew(10deg);
+  border-right: 1px solid #e5e4e3;
+  /*background-image: linear-gradient(to bottom, #fff, #ddd);*/
+  /*box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);*/
+  -webkit-transform: skew(10deg);
+  -moz-transform: skew(10deg);
+  -ms-transform: skew(10deg);
+  -o-transform: skew(10deg);
+}
+.el-button{
+  /*background-color: #fff;*/
+  /*background: #1B80C3;*/
+  /*border-radius: 4px;*/
+  /*color: #fff;*/
+}
+.el-button--large{
+  /*height: 40px;*/
+}
+
+.el-dialog{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+  border-radius: 2px;
+}
+.el-dialog__title{
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #1F2D3D;
+}
+.el-dialog__body{
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #475669;
+  vertical-align: middle;
+}
+.el-icon-warning{
+  color: #F7BA2A;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.dialog-footer .el-button--default{
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  color: #666;
+  font-size: 14px;
+}
+.dialog-footer .el-button--primary{
+  background: #2C97DE;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+}
+.el-dialog--tiny{
+  max-width: 390px
+}
+.el-dialog__headerbtn{
+  display: none;
+}
+.el-menu-item .icon{
+  font-size: 15px;
+}
+
+
+
+/* lvfeng begin */
+.el-button--special {
+  background-image: linear-gradient(-90deg, #42ACDC 0%, #68A5FA 100%);
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.el-button--special:hover, .el-button--special:active {
+  background: #2C97DE;
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.el-radio-button__inner:hover {
+  border: 1px solid #2C97DE;
+}
+
+.el-radio-button__inner i.el-icon-check{
+  margin: 0 6px 0 0;
+  font-size:9px;
+}
+
+label.el-radio-button:hover {
+  background: #FFFFFF;
+  border-radius: 4px 0 0 4px;
+  color: #2C97DE;
+}
+.el-month-table td.current .cell {
+  background-color: #20A0FF;
+  color: #fff;
+}
+/* lvfeng end */
