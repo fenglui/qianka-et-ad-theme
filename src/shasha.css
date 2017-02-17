@@ -70,18 +70,6 @@ html, body{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
   border-radius: 2px;
 }
-.el-button{
-  border: none;
-  font-size: 12px;
-  color: #5b6678;
-}
-.el-button--primary{
-  background: #F9FAFC;
-}
-.el-button--primary:active, .el-button--primary:hover, .el-button--primary:focus{
-  background: #F9FAFC;
-  color: #5b6678;
-}
 
 .el-table{
   background: #fff;
@@ -264,38 +252,3 @@ html, body{
 .el-menu-item .icon{
   font-size: 15px;
 }
-
-
-
-/* lvfeng begin */
-.el-button--special {
-  background-image: linear-gradient(-90deg, #42ACDC 0%, #68A5FA 100%);
-  border-radius: 4px;
-  color: #FFF;
-}
-
-.el-button--special:hover, .el-button--special:active {
-  background: #2C97DE;
-  border-radius: 4px;
-  color: #FFF;
-}
-
-.el-radio-button__inner:hover {
-  border: 1px solid #2C97DE;
-}
-
-.el-radio-button__inner i.el-icon-check{
-  margin: 0 6px 0 0;
-  font-size:9px;
-}
-
-label.el-radio-button:hover {
-  background: #FFFFFF;
-  border-radius: 4px 0 0 4px;
-  color: #2C97DE;
-}
-.el-month-table td.current .cell {
-  background-color: #20A0FF;
-  color: #fff;
-}
-/* lvfeng end */

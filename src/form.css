@@ -46,7 +46,7 @@
       box-sizing: border-box;
     }
     @e content {
-      line-height: 36px;
+      line-height: 40px;
       position: relative;
       font-size: 14px;
       @utils-clearfix;

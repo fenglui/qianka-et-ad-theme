@@ -164,7 +164,7 @@
 
   --select-option-color: var(--link-color);
   --select-option-disabled-color: var(--color-extra-light-silver);
-  --select-option-height: 36px;
+  --select-option-height: 40px;
   --select-option-hover-background: var(--color-light-gray);
   --select-option-selected: var(--color-primary);
   --select-option-selected-hover: shade(var(--color-primary), 0.12);
@@ -250,7 +250,7 @@
   --input-font-size: var(--font-size-base);
   --input-color: var(--font-color-base);
   --input-width: 140px;
-  --input-height: 36px;
+  --input-height: 40px;
   --input-border: var(--border-base);
   --input-border-color: var(--border-color-base);
   --input-border-radius: var(--border-radius-base);

@@ -60,7 +60,7 @@
     @e footer {
       border-top: 1px solid var(--datepicker-inner-border-color);
       padding: 4px;
-      height: 36px;
+      height: 40px;
       line-height: 25px;
       text-align: right;
       box-sizing: border-box;
