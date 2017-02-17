@@ -11,11 +11,11 @@
 
   /* Colors
   -------------------------- */
-  --color-primary: #20a0ff;
+  --color-primary: #1B80C3;
 
-  --color-success: #13ce66;
+  --color-success: #6BAD5D;
   --color-warning: #f7ba2a;
-  --color-danger: #ff4949;
+  --color-danger: #DE4948;
   --color-info: #50bfff;
 
   --color-secondary: color(var(--color-primary) s(99%) l(*0.9));
@@ -50,6 +50,8 @@
   --border-radius-base: 4px;
   --border-radius-small: 2px;
   --border-radius-circle: 100%;
+  
+  --border-style-dashed: dashed;
 
   /* Box-shadow
   -------------------------- */
@@ -139,10 +141,11 @@
   --radio-input-border-color-hover: var(--color-primary);
 
   --radio-button-font-size: var(--font-size-base);
-  --radio-button-checked-fill: var(--color-primary);
+  --radio-button-checked-fill: #2C97DE;
+  
   --radio-button-checked-color: var(--color-white);
   --radio-button-checked-border-color: var(--color-primary);
-
+  
   /* Select
   -------------------------- */
   --select-border-color-hover: var(--border-color-hover);
@@ -323,7 +326,7 @@
 
   /* Button
   -------------------------- */
-  --button-font-size: 14px;
+  --button-font-size: 13px;
   --button-border-radius: var(--border-radius-base);
   --button-paddding: 5px 20px;
   --button-padding-vertical: 10px;
@@ -375,6 +378,16 @@
 
   --button-hover-tint-percent: 20%;
   --button-active-shade-percent: 10%;
+
+  --color-dynamicAdd-border: #E9E9E9;
+  --color-dynamicAdd: #5B6678;
+
+  --button-special-border:var(--color-special);
+  --button-special-color: var(--color-white);
+
+  --button-dynamicAdd-border:var(--border-width-base) var(--border-style-dashed) var(--color-dynamicAdd-border);
+  --button-dynamicAdd-color: var(--color-dynamicAdd);
+  --button-dynamicAdd-fill: #FFF;
 
 
   /* cascader
@@ -438,7 +451,7 @@
 
   /* Tooltip
   -------------------------- */
-  --tooltip-fill: var(--color-base-black);
+  --tooltip-fill: #5B6678;/* var(--color-base-black); */
   --tooltip-color: var(--color-white);
   --tooltip-font-size: 12px;
   --tooltip-border-color: var(--color-base-black);
@@ -544,10 +557,15 @@
   --datepicker-border-color: var(--disabled-border-base);
   --datepicker-inner-border-color: #e4e4e4;
   --datepicker-cell-hover-color: var(--color-light-gray);
-  --datepicker-inrange-color: tint(var(--color-primary), 0.8);
-  --datepicker-inrange-hover-color: tint(var(--color-primary), 0.64);
-  --datepicker-active-color: var(--color-primary);
-  --datepicker-text-hover-color: var(--color-primary);
+
+  /*tint(var(--color-primary), 0.8);*/
+  --datepicker-inrange-color:#D2ECFF;
+  /* tint(var(--color-primary), 0.64) */
+  --datepicker-inrange-hover-color:#AFDCFF;
+  /* var(--color-primary); */
+  --datepicker-active-color:#2C97DE;
+  /* var(--color-primary); */
+  --datepicker-text-hover-color:#003D00;
 
   /* Loading
   --------------------------*/
