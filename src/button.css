@@ -147,6 +147,13 @@
         color: shade(var(--color-primary), var(--button-active-shade-percent));
       }
     }
+    @m dynamicAdd {
+      border: 1px dashed #E9E9E9;
+      &:hover {
+        color: #AFDCFF;
+        border: 1px dashed #AFDCFF;
+      }
+    }
   }
 
   @b button-group {

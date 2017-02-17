@@ -40,7 +40,8 @@
       vertical-align: middle;
       float: left;
       font-size: 14px;
-      color: var(--color-extra-light-black);
+      /*color: var(--color-extra-light-black);*/
+      color: var(--color-form-lable);
       line-height: 1;
       padding: 11px 12px 11px 0;
       box-sizing: border-box;
@@ -70,7 +71,7 @@
     }
 
     @when error {
-      & .el-input__inner,
+      & .el-input:not(.el-input--underline) .el-input__inner,
       & .el-textarea__inner {
         border-color: var(--color-danger);
       }

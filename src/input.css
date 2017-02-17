@@ -113,6 +113,18 @@
         height: var(--input-mini-height);
       }
     }
+    @m underline{
+      font-size: var(--input-mini-font-size);
+
+      & .el-input__inner {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #E4EAEC;
+        border-color: #E4EAEC;
+        border-radius: 0;
+      }
+    }
   }
 
   @b input-group {

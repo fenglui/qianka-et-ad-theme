@@ -1,6 +1,4 @@
 /*实话说 设计中有些样式是et框架没有明确找到如何定义、重载的，我们只好来个补丁啦*/
-
-
   .el-button--special {
     background-image: linear-gradient(-90deg, #42ACDC 0%, #68A5FA 100%);
     border-radius: 4px;

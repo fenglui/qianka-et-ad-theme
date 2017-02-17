@@ -27,6 +27,8 @@
   --color-light-black: color(var(--color-base-black) h(+5) s(27%) l(27%));
   --color-extra-light-black: color(var(--color-base-black) h(+2) s(19%) l(35%));
 
+  --color-form-lable:#5B6678;
+
   --color-base-silver: color(var(--color-base-black) h(+3) s(16%) l(58%));
   --color-light-silver: color(var(--color-base-black) h(+3) s(23%) l(67%));
   --color-extra-light-silver: color(var(--color-base-black) s(26%) l(80%));
@@ -34,6 +36,8 @@
   --color-base-gray: color(var(--color-base-black) s(28%) l(86%));
   --color-light-gray: color(var(--color-base-black) h(+10) s(33%) l(92%));
   --color-extra-light-gray: color(var(--color-base-black) h(+6) s(33%) l(95%));
+
+  --color-input-placeholder:#C0CCDA;
 
   /* Link
   -------------------------- */
@@ -51,7 +55,6 @@
   --border-radius-small: 2px;
   --border-radius-circle: 100%;
   
-  --border-style-dashed: dashed;
 
   /* Box-shadow
   -------------------------- */
@@ -247,24 +250,24 @@
 
   /* Input
   -------------------------- */
-  --input-font-size: var(--font-size-base);
-  --input-color: var(--font-color-base);
+  --input-font-size: 13px;
+  --input-color: #5B6678;
   --input-width: 140px;
   --input-height: 40px;
   --input-border: var(--border-base);
-  --input-border-color: var(--border-color-base);
+  --input-border-color: #2C97DE;
   --input-border-radius: var(--border-radius-base);
   --input-border-color-hover: var(--border-color-hover);
   --input-fill: var(--color-white);
   --input-fill-disabled: var(--disabled-fill-base);
   --input-color-disabled: var(--font-color-disabled-base);
   --input-icon-color: var(--color-extra-light-silver);
-  --input-placeholder-color: var(--color-light-silver);
+  --input-placeholder-color: var(--color-input-placeholder);
   --input-max-width: 314px;
 
   --input-hover-border: var(--border-color-hover);
 
-  --input-focus-border: var(--color-primary);
+  --input-focus-border: #2C97DE;
   --input-focus-fill: var(--color-white);
 
   --input-disabled-fill: var(--disabled-fill-base);
@@ -379,15 +382,8 @@
   --button-hover-tint-percent: 20%;
   --button-active-shade-percent: 10%;
 
-  --color-dynamicAdd-border: #E9E9E9;
-  --color-dynamicAdd: #5B6678;
-
   --button-special-border:var(--color-special);
   --button-special-color: var(--color-white);
-
-  --button-dynamicAdd-border:var(--border-width-base) var(--border-style-dashed) var(--color-dynamicAdd-border);
-  --button-dynamicAdd-color: var(--color-dynamicAdd);
-  --button-dynamicAdd-fill: #FFF;
 
 
   /* cascader
