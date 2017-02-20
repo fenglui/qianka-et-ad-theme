@@ -154,6 +154,16 @@
         border: 1px dashed #AFDCFF;
       }
     }
+    @m special{
+      color: #FFF;
+      background-image: linear-gradient(-90deg, #68A5FA 0%, #42ACDC 100%);
+      &:hover,
+      &:active {
+        background: #2C97DE;
+        border-radius: 4px;
+        color: #FFF;
+      }
+    }
   }
 
   @b button-group {
