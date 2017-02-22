@@ -1,7 +1,7 @@
 {
   "name": "qianka-et-ad-theme",
-  "version": "1.0.5",
-  "description": "Element component theme for qianka ad client admin.",
+  "version": "1.0.6",
+  "description": "Element component theme for qianka ad client platform.",
   "main": "lib/index.css",
   "style": "lib/index.css",
   "files": [
