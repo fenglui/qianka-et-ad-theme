@@ -32,6 +32,11 @@
       overflow: auto;
     }
 
+    @modifier fixed390{
+      width: var(--dialog-fixed390-width);
+      max-width: 390px;
+    }
+
     @e wrapper {
       position: fixed 0 0 0 0;
       overflow: auto;
@@ -39,7 +44,7 @@
     }
 
     @e header {
-      padding: 20px 20px 0;
+      padding: 25px 25px 0 25px;
     }
 
     @e close {
@@ -59,7 +64,7 @@
     }
 
     @e body {
-      padding: 30px 20px;
+      padding: 30px 25px 30px 25px;
       color: var(--color-extra-light-black);
       font-size: var(--dialog-font-size);
     }
@@ -69,7 +74,7 @@
     }
 
     @e footer {
-      padding: 10px 20px 15px;
+      padding: 25px 25px 25px 25px;
       text-align: right;
       box-sizing: border-box;
     }

@@ -24,7 +24,7 @@ html, body{
 .z-title span{
   font-family: PingFangSC-Light;
   font-size: 18px;
-  color: #5B6678;/*#99A9BF*/
+  color: #5B6678;
 }
 .el-menu{
   background-color: #fff;
@@ -231,10 +231,11 @@ html, body{
   color: #475669;
   vertical-align: middle;
 }
-.el-icon-warning{
+.el-dialog__body .el-icon-warning{
   color: #F7BA2A;
   font-size: 30px;
   vertical-align: middle;
+  margin-right: 15px;
 }
 .dialog-footer .el-button--default{
   background: #FFFFFF;
@@ -242,15 +243,16 @@ html, body{
   border-radius: 4px;
   color: #666;
   font-size: 14px;
+  width:70px;
+  height:32px;
 }
 .dialog-footer .el-button--primary{
   background: #2C97DE;
-  border-radius: 6px;
+  border-radius: 4px;
   color: #fff;
   font-size: 14px;
-}
-.el-dialog--tiny{
-  max-width: 390px
+  width:70px;
+  height:32px;
 }
 .el-dialog__headerbtn{
   display: none;

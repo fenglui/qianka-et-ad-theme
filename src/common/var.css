@@ -414,6 +414,8 @@
   --dialog-close-hover-color: var(--color-primary);
   --dialog-title-font-size: 16px;
   --dialog-font-size: 14px;
+  --dialog-large-width: 90%;
+  --dialog-fixed390-width: 390px;
 
   /* Table
  -------------------------- */
