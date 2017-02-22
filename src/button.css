@@ -163,6 +163,9 @@
         border-radius: 4px;
         color: #FFF;
       }
+      &:before {
+        margin-right:8px;
+      }
     }
   }
 

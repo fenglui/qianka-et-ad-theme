@@ -17,8 +17,14 @@ html, body{
 .z-title{
   font-family: PingFangSC-Light;
   font-size: 18px;
-  color: #5B6678;
+  color: #99A9BF;
   margin: 15px 0 35px;
+}
+
+.z-title span{
+  font-family: PingFangSC-Light;
+  font-size: 18px;
+  color: #5B6678;/*#99A9BF*/
 }
 .el-menu{
   background-color: #fff;
