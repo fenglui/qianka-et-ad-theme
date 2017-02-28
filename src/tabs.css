@@ -98,8 +98,8 @@
         &.is-active {
           border: 1px solid var(--color-base-gray);
           border-bottom-color: var(--color-white);
-          border-radius: 4px 4px 0 0;
-
+          /*border-radius: 4px 4px 0 0; 尝试去掉拖影效果*/
+          border-radius: 0;
           &.is-closable {
             padding: * 16px;
             
