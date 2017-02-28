@@ -17,7 +17,7 @@
       height: 3px;
       background-color: var(--color-primary);
       z-index: 1;
-      transition: transform .3s cubic-bezier(.645,.045,.355,1);
+      /*transition: transform .3s cubic-bezier(.645,.045,.355,1);*/
       list-style: none;
     }
     @e item {
@@ -84,7 +84,7 @@
       }
       &>.el-tabs__header>.el-tabs__item {
         border: 1px solid transparent;
-        transition: all .3s cubic-bezier(.645,.045,.355,1);
+        /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
               
         &.is-closable {
           &:hover {
@@ -98,7 +98,7 @@
         &.is-active {
           border: 1px solid var(--color-base-gray);
           border-bottom-color: var(--color-white);
-          /*border-radius: 4px 4px 0 0; 尝试去掉拖影效果*/
+          border-radius: 4px 4px 0 0;
           border-radius: 0;
           &.is-closable {
             padding: * 16px;
@@ -123,7 +123,7 @@
         margin: 0;
       }
       &>.el-tabs__header>.el-tabs__item {
-        transition: all .3s cubic-bezier(.645,.045,.355,1);
+        /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
         border: 1px solid transparent;
         border-top: 0;
         margin: * -1px;
