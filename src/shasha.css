@@ -167,7 +167,6 @@ html, body{
   border: none;
   border-bottom:1px solid #e5e4e3;
   margin: 0;
-
 }
 .el-tabs__item{
   position: relative;
@@ -181,7 +180,6 @@ html, body{
   background-color: #fff;
   color: #5b6678;
   z-index: 2;
-
 }
 .el-tabs__item.is-active::after{
   background-color: #fff;

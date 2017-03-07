@@ -50,6 +50,9 @@
 
       @when active {
         color: var(--color-primary);
+        background-color: #FFF;
+        z-index: 2;
+        border-bottom-color: #fff;
       }
 
       &:hover {
