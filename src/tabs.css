@@ -177,7 +177,8 @@
         margin: 0;
       }
       &>.el-tabs__header>.el-tabs__item {
-        transition: all .3s cubic-bezier(.645,.045,.355,1);
+        /*尝试去掉拖影效果*/
+        /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
         border: 1px solid transparent;
         border-top: 0;
         margin: * -1px;
