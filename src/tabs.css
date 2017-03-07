@@ -137,7 +137,7 @@
         transform-origin: 100% 50%;
       }
       .el-tabs__nav .el-tabs__item {
-        border: 1px solid transparent;
+        border: 1px solid #e5e4e3;
         transition: all .3s cubic-bezier(.645,.045,.355,1);
               
         &.is-closable {
