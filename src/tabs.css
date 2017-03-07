@@ -138,7 +138,8 @@
       }
       .el-tabs__nav .el-tabs__item {
         border: 1px solid #e5e4e3;
-        transition: all .3s cubic-bezier(.645,.045,.355,1);
+        /*尝试去掉拖影效果*/
+        /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
               
         &.is-closable {
           &:hover {
