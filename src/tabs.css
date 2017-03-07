@@ -101,6 +101,9 @@
 
       @when active {
         color: var(--color-primary);
+        background-color: #fff;
+        color: #5b6678;
+        z-index: 2;
       }
 
       &:hover {
