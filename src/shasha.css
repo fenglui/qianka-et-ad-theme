@@ -234,6 +234,7 @@ html, body{
   font-size: 14px;
   width:70px;
   height:32px;
+  line-height: 0.6;
 }
 .dialog-footer .el-button--primary{
   background: #2C97DE;
@@ -242,6 +243,7 @@ html, body{
   font-size: 14px;
   width:70px;
   height:32px;
+  line-height: 0.6
 }
 .el-dialog__headerbtn{
   display: none;
