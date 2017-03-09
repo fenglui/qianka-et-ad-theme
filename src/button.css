@@ -148,11 +148,11 @@
       }
     }
     @m dynamicAdd {
-    border: 1px dashed #E9E9E9;
+        border: 1px dashed #E9E9E9;
+        text-align:left;
         &:hover {
         color: #AFDCFF;
         border: 1px dashed #AFDCFF;
-        text-align:left;
         }
     }
      @m special{
