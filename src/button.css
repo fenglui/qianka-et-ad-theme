@@ -152,6 +152,7 @@
         &:hover {
         color: #AFDCFF;
         border: 1px dashed #AFDCFF;
+        text-align:left;
         }
     }
      @m special{
