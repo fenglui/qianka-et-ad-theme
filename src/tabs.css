@@ -4,7 +4,7 @@
 @component-namespace el {
   @b tabs {
     @e header {
-      border-bottom: 1px solid var(--color-base-gray);
+      /*border-bottom: 1px solid var(--color-base-gray);*/
       padding: 0;
       position: relative;
       margin: 0 0 15px;
@@ -42,7 +42,7 @@
       }
     }
     @e nav-wrap {
-      overflow: hidden;
+      overflow: visible;
       margin-bottom: -1px;
       position: relative;
 
@@ -51,7 +51,7 @@
       }
     }
     @e nav-scroll {
-      overflow: hidden;
+      overflow: visible;
     }
     @e nav-next, nav-prev {
       position: absolute;
@@ -71,6 +71,8 @@
       position: relative;
       transition: transform .3s;
       float: left;
+      border: none;
+      box-shadow: -2px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06);
     }
     @e item {
       padding: 0 16px;
@@ -137,7 +139,7 @@
         transform-origin: 100% 50%;
       }
       .el-tabs__nav .el-tabs__item {
-        border: 1px solid #e5e4e3;
+        /*border: 1px solid #e5e4e3;*/
         /*尝试去掉拖影效果*/
         /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
               
@@ -151,9 +153,13 @@
           }
         }
         &.is-active {
-          border: 1px solid var(--color-base-gray);
-          border-bottom-color: var(--color-white);
           border-radius: 4px 4px 0 0;
+          background-color: #fff;
+          color: #5b6678;
+          z-index: 2;
+          border: none !important;
+          height: 43px !important;
+          box-shadow: -2px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06) !important;
 
           &.is-closable {
             padding: * 16px;
@@ -180,9 +186,10 @@
       &>.el-tabs__header>.el-tabs__item {
         /*尝试去掉拖影效果*/
         /*transition: all .3s cubic-bezier(.645,.045,.355,1);*/
-        border: 1px solid transparent;
+        /*border: 1px solid transparent;*/
         border-top: 0;
         margin: * -1px;
+        box-shadow: 1px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06);
 
         &.is-active {
           background-color: var(--color-white);
