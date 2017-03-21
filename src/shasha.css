@@ -171,22 +171,13 @@ html, body{
 .el-pager li.btn-quicknext{
   background-color: #fff;
 }
+
+/*start of el-tabs*/
 .el-tabs__header{
-  border-bottom:1px solid #e5e4e3;
   border: none !important;  
   margin: 0;
 }
 
-.el-tabs__header>.el-tabs__nav-wrap {
-  overflow: visible;
-}
-.el-tabs__header>.el-tabs__nav-wrap>.el-tabs__nav-scroll {
-  overflow: visible;  
-}
-.el-tabs__header>.el-tabs__nav-wrap>.el-tabs__nav-scroll>.el-tabs__nav {
-  border: none !important ;
-  box-shadow: -2px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06);
-}
 .el-tabs__item{
   position: relative;
 }
@@ -224,16 +215,14 @@ html, body{
   width: 1em;
   background: #f2f6fa;
   transform: skew(10deg);
-  /*border-right: 1px solid #e5e4e3;*/
-  border: none !important;
-  /*background-image: linear-gradient(to bottom, #fff, #ddd);*/
-  /*box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);*/
-  box-shadow: 1px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06);  
   -webkit-transform: skew(10deg);
   -moz-transform: skew(10deg);
   -ms-transform: skew(10deg);
   -o-transform: skew(10deg);
+  border: none !important;
+  box-shadow: 1px 0 0 0 rgba(153,153,153,0.06), 0 -1px 0 0 rgba(153,153,153,0.06);  
 }
+/*end of el-tabs*/
 
 .el-dialog{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
