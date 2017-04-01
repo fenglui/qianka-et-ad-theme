@@ -271,3 +271,21 @@ html, body{
 .el-menu-item .icon{
   font-size: 15px;
 }
+
+.select-search .el-input {
+  left: 5px;
+}
+.select-search  .el-input .el-input__icon {
+  font-size: 10px;
+}
+.select-search .el-input .el-input__icon+.el-input__inner {
+  padding: 3px 25px 3px 15px;
+  border-right: none;
+  border-radius: 4px 0px 0px 4px;
+}
+.form-search .el-input .el-input__inner {
+  border-radius: 0px 4px 4px 0px;
+}
+.form-search .form-search-title-input .el-input__inner {
+  border-radius: 0px 4px 4px 0px;
+}
