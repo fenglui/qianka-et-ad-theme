@@ -165,6 +165,7 @@
   --select-option-disabled-background: var(--color-white);
   --select-option-height: 40px;
   --select-option-hover-background: var(--color-light-gray);
+  --select-option-selected-qk: #5b6678;
   --select-option-selected: var(--color-primary);
   --select-option-selected-hover: shade(var(--color-primary), 0.12);
 
@@ -173,6 +174,7 @@
   --select-group-font-size: 12px;
 
   --select-dropdown-background: var(--color-white);
+  --select-dropdown-background-qk: #f2f6fa;
   --select-dropdown-shadow: var(--box-shadow-base);
   --select-dropdown-empty-color: #999;
   --select-dropdown-max-height: 274px;

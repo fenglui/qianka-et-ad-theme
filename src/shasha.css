@@ -282,6 +282,7 @@ html, body{
   padding: 3px 25px 3px 15px;
   border-right: none;
   border-radius: 4px 0px 0px 4px;
+  color: #99a9bf;
 }
 .form-search .el-input .el-input__inner {
   border-radius: 0px 4px 4px 0px;
