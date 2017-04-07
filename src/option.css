@@ -31,12 +31,12 @@
       }
 
       &.selected {
-        color: var(--color-white);
-        background-color: var(--select-option-selected);
+        color: var(--select-option-selected-qk);
+        background-color: var(--select-dropdown-background-qk);
 
-        &.hover {
+        /*&.hover {
           background-color: var(--select-option-selected-hover);
-        }
+        }*/
       }
 
       & span {
